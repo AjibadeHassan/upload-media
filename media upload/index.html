@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="MainCon">
+        <button class="Btn">Upload Post</button>
+        <div class="Pop">
+            <div class="popBox">
+                <div class="popBoxTop">
+                    <span>Create a post</span>
+                    <div class="close">X</div>
+                </div>
+                <div class="popBoxButotom">
+                    <div class="ProfileDiv"> 
+
+                    </div>
+                    <div class="InputPost"> 
+                        <textarea placeholder="What do you want to talk about?"></textarea>
+                        <div class="mediaUpload">
+                            <img  class="uploadmedia">
+                        </div>
+                        <div class="mediaUpload2">
+                            <video controls class="uploadvid"></video>
+                        </div>
+                    </div>
+                    <div class="UploadDiv"> 
+                            <div class="UploadInsert">
+                                <div>
+                                    <label for="Image-input">
+                                        <div class="UpImg"> Upload Image </div>  
+                                  </label>
+                                  <input type="file" name="Pics" id="Image-input" hidden accept="image/*">
+                                </div>
+                                 
+                                <div>
+                                    <label for="Vid-input">
+                                        <div class="UpImg" id="UpImg"> Upload Video </div>  
+                                  </label>
+                                  <input type="file" name="Pics" id="Vid-input" hidden accept="Video/*">
+                                </div>
+                            </div>
+<div class="postDiv">
+                                <button> Submit </button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/App.js"></script>
+</body>
+</html>

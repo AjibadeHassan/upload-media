@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .Btn {
+    margin: 30px;
+  }
+  
+  .Pop {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.678);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: none;
+    justify-content: center;
+  }
+  
+  .Pop.PopShow {
+    display: flex;
+  }
+  
+  .popBox {
+    width: 40%;
+    height: 60%;
+    margin-top: 50px;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  .popBoxTop {
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .popBoxButotom {
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+  }
+  
+  .ProfileDiv {
+    width: 100%;
+    height: 20%;
+  }
+  
+  .InputPost {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    align-items: center;
+  }
+  
+  .InputPost textarea {
+    width: 100%;
+    min-height: 160px;
+    border: none;
+    outline: none;
+  }
+  
+  .UploadDiv {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .UploadInsert {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .UpImg {
+      width: 65px;
+      height: 45px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .mediaUpload {
+     width: 150%;
+     min-height:150px;
+     background-color: red;
+     object-fit: cover;
+     
+     display: none;
+  }
+
+  .mediaUpload2 {
+     width: 150%;
+     min-height:150px;
+     background-color: red;
+     object-fit: cover;
+     display: none;
+  }
+
+  .mediaUpload img {
+      width: 100%;
+      height: 100%;
+  }
+
+
+.mediaUpload2 video {
+    width: 100%;
+      height: 100%;
+}
+
+  
+
+  
